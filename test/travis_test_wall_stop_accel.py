@@ -19,7 +19,7 @@ class WallStopTest(unittest.TestCase):
 		self.assertTrue(left == right == 0, "can't stop (600)")
 
 		left, right = self.set_and_get(40,0,0,9)
-#		self.assertTrue(0 < left == right < 1000, "can't move again")
+		self.assertTrue(0 < left == right < 1000, "can't move again")
 
 #		time.sleep(5.0)
 #		left, right = self.set_and_get(40,0,0,9)
